@@ -31,11 +31,17 @@
 	// $aluno -> insert();
 	// echo $aluno;
 
+	// Alterar um usuário
+	// $usuario = new Usuario();
+	// $usuario -> loadByid(6);
+	// $usuario -> update("professor","professor");
+	// echo $usuario;
+
 	$usuario = new Usuario();
 
-	$usuario -> loadByid(6);
+	$usuario -> loadByid(5);
 
-	$usuario -> update("professor","professor");
+	$usuario -> delete();
 
 	echo $usuario;
 
